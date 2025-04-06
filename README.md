@@ -2,7 +2,7 @@ Compiler for Simple Expressions
 This repository contains a simple compiler written in C++ using Flex and Bison to parse and evaluate expressions for basic calculations like interest and average calculations.
 
 Features
-Input Parsing: The compiler supports a variety of input expressions like SI = (P * R * T) / 100; and NIKHILESH X = 10, 20, 30, 40;.
+Input Parsing: The compiler supports a variety of input expressions like x=a+b+c+d/4; and NIKHILESH X = 10, 20, 30, 40;.
 
 Three Address Code Generation: The program generates a Three Address Code for expressions.
 
@@ -64,8 +64,8 @@ You will be prompted to enter an expression, for example:
 
 cpp
 Copy
-Enter expression (e.g., SI = (P * R * T) / 100; or NIKHILESH X = 10, 20, 30, 40;):
-SI = (10 * 5 * 2) / 100;
+Enter expression ( NIKHILESH  eg:-10, 20, 30, 40;):
+x=(a+b+c+d)/4
 Output:
 
 csharp
@@ -85,7 +85,7 @@ STORE SI
 Supported Expressions
 Simple Interest Calculation (SI):
 
-Example: SI = (P * R * T) / 100;
+Example: x=(a+b+c+d)/4
 
 Average Calculation (NIKHILESH):
 
