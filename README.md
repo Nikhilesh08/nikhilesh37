@@ -75,10 +75,7 @@ t1 = 10.00 * 5.00
 t2 = t1 * 2.00
 SI = t2 / 100
 
-[Optimized Instructions]
-SI SI = 10, 5, 2
 
-[Evaluated Result] SI = 1.00
 
 [Final Code]
 STORE SI
